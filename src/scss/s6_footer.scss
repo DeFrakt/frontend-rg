@@ -1,0 +1,32 @@
+//foot BG color
+#footer{
+    background-color: #fafafa;
+}  
+//Social media icons
+.footer-icon-instagram { 
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    /* Background Option 1: Use a background-color as the fill */
+    background-color: #805d91;
+    /* Syntax Option 1: mask shorthand */
+    mask: url(/src/images/instagram.svg) no-repeat 50% 50%;
+    -webkit-mask: url(/src/images/instagram.svg) no-repeat 50% 50%;
+    /* Syntax Option 2: mask-image only */
+    mask-image: url(/src/images/instagram.svg);
+    -webkit-mask-image: url(/src/images/instagram.svg);
+  }
+  .footer-icon-facebook { 
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    /* Background Option 1: Use a background-color as the fill */
+    background-color: #805d91;
+    /* Syntax Option 1: mask shorthand */
+    mask: url(/src/images/facebook.svg) no-repeat 50% 50%;
+    -webkit-mask: url(/src/images/facebook.svg) no-repeat 50% 50%;
+    /* Syntax Option 2: mask-image only */
+    mask-image: url(/src/images/facebook.svg);
+    -webkit-mask-image: url(/src/images/facebook.svg);
+  }
+
