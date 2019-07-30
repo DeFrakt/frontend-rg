@@ -3,6 +3,7 @@
 ### Run Webpack
 
 <pre>
+  npm install
   npm start
 </pre>
 
